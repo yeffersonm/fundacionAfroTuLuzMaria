@@ -1,0 +1,605 @@
+* {
+    box-sizing: border-box;
+}
+
+#botn
+{
+  background-color:#FFFAF0;
+    padding: 0.5vh 8px 2vh 22px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+    font-weight: bold;
+    border-style: none;
+}
+
+#botn:hover
+{
+    color: #4CAF50;
+}
+
+.fade .modal-dialog{
+  margin: 0;
+   margin-right: auto;
+   margin-left: auto;
+   width: 100%;
+}
+
+  .modal-title{
+    color: white;
+    font-size: 40;
+    text-align: center;
+  }
+
+.modal-header{
+  background-color: #4CAF50;
+}
+
+.close{
+  color: red;
+  font-size: 40;
+  border-style: double;
+
+}
+
+body
+{
+
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+    font-family: Arial;
+    background-image: url(../imagenes/uploads/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50% !important;
+    background-size: cover !important;
+    margin: 2px;
+    overflow-x: hidden;
+
+
+  }
+  .logo{
+    width: 70vh;
+    height:40vh;
+    word-break: break-all;
+  }
+  .pa {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+  }
+  h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+/*nav bar portafoly*/
+
+.navbar
+ {
+  overflow: hidden;
+  background-color: yellow;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: green;
+  font-size: 20px;
+  margin: 0;
+  padding: 0%;
+}
+
+.navbar a
+{
+  float: left;
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover
+{
+  background: white;
+  color: yellow;
+}
+
+/* position website */
+.main
+{
+   min-height: 100px;
+   min-width: 100px;
+}
+
+.content img
+{
+    width: 90vh;
+    height:60vh;
+    word-break: break-all;
+}
+
+.row
+{
+    margin: 8px -16px;
+    padding: 44px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column
+{
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: #FFFAF0;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.content h3 {
+  color: green;
+}
+.content p{
+  color: black;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.content p::before{
+  content: "\2022";
+  color: green;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  position: relative;
+  left: 12px;
+}
+.content .ig
+{
+  width: 100vh;
+  height: 75vh;
+}
+
+.con::after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col
+{
+  float: left;
+  width: 50%;
+  padding: 5px 10px;
+  margin: 0
+}
+
+.punto
+{
+  color: green;
+  font-size: 15px;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/*footer*/
+
+footer{
+   width: 100%;
+   background: #4CAF50 ;
+   color: #000000;
+}
+
+.container-footer-all{
+   width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+}
+
+.container-body{
+ display: flex;
+ justify-content: space-between;
+}
+ .colum1{
+   max-width: 400px;
+}
+.colum1 h1{
+   font-size: 22px;
+}
+.colum1 p{
+   font-size: 14px;
+   color: #000000;
+  margin-top: 20px;
+}
+.colum2{
+   max-width: 400px;
+}
+.colum2 h1{
+  font-size: 22px;
+}
+footer .row{
+   margin-top: 2px;
+   display: flex;
+}
+
+footer .row img{
+   width: 36px;
+   height: 36px;
+}
+
+footer .row a{
+   margin-top: 10px;
+   margin-left: 20px;
+   color: #000000;
+}
+
+.colum3{
+  max-width: 400px;
+}
+
+.colum3 h1{
+ font-size: 22px;
+}
+.row2{
+   margin-top: 20px;
+   display: flex;
+}
+
+.row2 img{
+   width: 36px;
+   height: 36px;
+}
+.row2 label{
+   margin-top: 10px;
+   margin-left: 20px;
+   max-width: 400px;
+}
+
+.container-footer{
+   width: 100%;
+   background: green;
+   border-style: double;
+   border-color: black;
+
+}
+
+.footer{
+   max-width: 1200px;
+   margin: auto;
+ display: flex;
+   justify-content: space-between;
+   padding: 20px;
+}
+
+.copyright{
+   color: #C7C7C7;
+}
+
+.copyright a{
+   text-decoration: none;
+   color: white;
+  font-weight: bold;
+}
+
+.information a{
+   text-decoration: none;
+ color: #FFFAF0;
+}
+
+@media screen and (max-width: 1100px){
+   .container-body{
+    flex-wrap: wrap;
+   }
+
+   .colum1{
+       max-width: 100%;
+   }
+  .colum2, .colum3{
+       margin-top: 40px;
+   }
+
+}
+
+
+/* SUPERPOSICION    */
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #FFFAF0;
+    overflow-x: hidden;
+    transition: 0.90s;
+    padding-top: 60px;
+    text-align: center;
+    opacity: .90;
+}
+
+.sidenav a {
+    padding: 3px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.sidenav a:hover {
+    color: #4CAF50;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.lg {
+  position: relative;
+  width: 200px;
+  height: 500px:
+}
+.cor
+{
+
+  float: left;
+  color: black;
+}
+.cor a{
+  float: left;
+  position: relative;
+}
+.cor a img{
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+.cor a img .logo{
+  margin-left: 100px;
+  margin-right: 20px;
+}
+span {
+  color: #4CAF50;
+  border-style: double;
+  border-color:black;
+  background-color: yellow;
+}
+
+#main {
+    transition: margin-left .90s;
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    top:300px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media (max-width: 700px){
+
+  .con::after
+  {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .col
+  {
+    float: none;
+    width: 100%;
+    padding: 5px 10px;
+    margin: 0
+  }
+
+  .logo{
+    width: 55vh;
+    height: 35vh;
+  }
+
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+ @media screen (max-width: 700px){
+
+ .sidenav a{
+
+ text-align: left;
+ position: absolute;
+ left: 0;
+
+ }
+
+
+ }
+
+ @media (max-width: 700px) {
+   .logo{
+     width: 55vh;
+     height: 35vh;
+     top: 18px;
+   }
+   .imagen{
+     width: auto;
+     height: 100%;
+   }
+   .topnav{
+     visibility: visible;
+   }
+   .sidenav a{
+     font-size: 25px;
+   }
+   .lg{
+     position: relative;
+     text-align: left;
+     width: 100%;
+     height: 100%;
+   }
+ }
+ /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+   .column, input[type=submit] {
+     width: 100%;
+     margin-top: 0;
+   }
+ }
+
+ /* empez: AR REPSSIVE TOP NAV; */
+
+ .topnav {
+   overflow: hidden;
+   background-color: #333;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  visibility: hidden;
+ }
+
+ .topnav a {
+   float: left;
+   display: block;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+   position: relative;
+   top: 1%;
+ }
+
+ .topnav a:hover {
+   background-color: #ddd;
+   color: black;
+ }
+
+ .active {
+   background-color: #4CAF50;
+   color: white;
+ }
+
+ .topnav .icon {
+   display: none;
+ }
+ .topnav .cerrar{
+   position: absolute;
+   right: 0;
+    top: 0;
+   display: none;
+ }
+
+ @media screen and (max-width: 600px) {
+   .topnav a:not(:first-child) {display: none;}
+   .topnav a.icon {
+     float: right;
+     display: block;
+   }
+   .topnav a.funda{
+     display: inline;
+     position: absolute;
+     left: 0;
+     font-size: 18px;
+     margin-right: 60px;
+     color: black;
+     font-weight: bold;
+   }
+ }
+
+ @media screen and (max-width: 600px) {
+
+ .topnav{
+   visibility: visible;
+   background-color: #4CAF50;
+ }
+   .topnav.responsive {position: relative;
+  top: 10%;
+
+   }
+   .topnav.responsive .icon {
+     position: absolute;
+     right: 0;
+      top: 0;
+   }
+   .topnav.responsive .cerrar {
+     position: absolute;
+     right: 0;
+      top: 0;
+   }
+   .topnav.responsive a {
+     float: none;
+     display: block;
+     text-align: left;
+   }
+   #abrir{
+     font-size: 22px;
+     background-color: yellow;
+     color: black;
+     font-weight: bold;
+   }
+   #cerrar{
+     font-size: 32px;
+     background-color: yellow;
+     color: black;
+   }
+
+ #main{
+   visibility: hidden;
+ }
+ .topnav .funda{
+   position: absolute;
+   left:  12px;;
+    top: 0;
+    visibility:visible;
+ }
+}

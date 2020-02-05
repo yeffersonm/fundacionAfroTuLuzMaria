@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="../../css/experiencia.css">
+  <link rel="icon" href="../../imagenes/iconos/fav.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="../../imagenes/iconos/fav.ico" type="image/x-icon" />
+<title>Fundacion Es Tu luz Maria</title>
+</head>
+<body>
+<section class="secuno">
+  <header class="cabecera cont">
+<div class="overlay"></div>
+
+<div class="contenido">
+  <a href="../index.html"><img src="../../imagenes/iconos/logoTransparente.png" alt="logo principal" class="logo"></a>
+  <hr>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="../index.html"><img class="lg" src="../../imagenes/iconos/logoTransparente.png" alt=""></a> </br> </br> </br>
+    <a href="../proyecto/nosotros.html">Our</a>
+    <a href="../proyecto/galeria.html">Gallery</a>
+    <a href="../proyecto/portafolio.html">Portafolly</a>
+    <a href="../proyecto/experiencia.html">Experience</a>
+    <a href="../proyecto/contacto.html">Contact</a>
+  <br>
+  <br> <br>
+  <hr>
+  <div class="cor">
+    <a href="../../proyecto/experiencia.html"><img src="../../imagenes/iconos/espana.png" alt="logo principal" class="lo"></a>
+      <a href=""></a>
+    <a href="experiencia.html"><img src="../../imagenes/iconos/eu.png" alt="logo principal" class="lo"></a>
+  </div>
+  </div>
+
+  <div id="main">
+    <span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  </div>
+  <h1>OUR EXPERIENCE</h1>
+  <hr>
+  <br> <br>
+  <article class="art">
+
+  The foundation for the development of sustainable ideas and projects, is constituted as a response to the needs of vulnerable populations with differential characteristics, which demanded programs that took into account this differential approach and contribute to the improvement of their quality of life, this is how after its constitution, initiates the development of a series of initiatives to achieve this objective.
+</article>
+  <br> <br>
+  <p> 	 CITY COUNCIL OF LOW LAND project strengthening fishermen association of Tierra Baja.</p>
+  <p> 	 Prior Consultation Vía al Mar Consortium with the Afro descendant community of Tierra Baja.</p>
+  <p> 	 Prior Consultation with the Vía 90 Project with the Afro-descendant communities of Tierra Baja, Puerto Rey and Bayuca.</p>
+  <p> 	 Project of Exploration of the Equion Energy Company with the communities of the North Zone and the Insular Zone.</p>
+  <p>    Legal accompaniment to the stone stream community in the process of prior consultation. </p>
+  <p>  Development of training workshops for children in the framework of the "SEMILLERO MI TAMBO" project.</p>
+  <p> 	  Realization of prior consultation of the waters of Cartagena underwater emissary project.</p>
+  <p> 	 Project to strengthen the black community units of Caño del Oro</p>
+  <p> 	 Aquaculture project association of fishermen of the black community of Bocachica.</p>
+  <p> 	 Characterization of the process of characterization of the population displaced by violence in the municipality of Turbaco carried out by the Ministry of the Interior, Fupad and the Municipality of Turbaco.</p>
+  <p> 	 Training of leaders in the framework of the institutional strengthening project of ASOCOC.</p>
+  <p> 	 Formulation of a project to strengthen community productive units.</p>
+  <p> 	 Management and development of community-based organizations.</p>
+  <p> 	 Support in the realization of sport and cultural events.</p>
+  <p> 	 Socioeconomic and cultural impact studies within the framework of the prior consultation of the Serena del Mar project.</p>
+  <p> 	 Logistic operation in the process of the characterization process of the community councils of the northern zone in Cartagena by the interior ministry and Fupad. </p>
+
+
+
+</div>
+</header>
+</section>
+<br> <br> <br> <br>
+<section class="secdos">
+<h1 class="desde">IDENTIFIER</h1>
+<hr>
+<br>
+<div class="comp">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">FUNDACION AFRODESCENDIENTE ESTA ES TU LUZ MARIA</div>
+  <img src="../../imagenes/portafolio/slide.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">FUNDACION AFRODESCENDIENTE ESTA ES TU LUZ MARIA</div>
+  <img src="../../imagenes/portafolio/slide11.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">FUNDACION AFRODESCENDIENTE ESTA ES TU LUZ MARIA</div>
+  <img src="../../imagenes/portafolio/slide10.jpg" style="width:100%">
+</div>
+
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+</div>
+<script type="text/javascript">
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<script type="text/javascript">
+function openNav() {
+document.getElementById("mySidenav").style.width= "250px";
+document.getElementById("main").style.marginLeft="250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width="0";
+  document.getElementById("main").style.marginLeft="0";
+}
+
+function myFunction() {
+  document.getElementById('abrir').style.visibility= "hidden";
+    document.getElementById("mySidenav").style.width= "250px";
+  document.getElementById("main").style.marginLeft="250px";
+  document.getElementById('cerrar').style.visibility="visible";
+  document.getElementById('cerrar').style.display="inline";
+}
+
+function closeNav2() {
+  document.getElementById('cerrar').style.visibility="hidden";
+  document.getElementById("mySidenav").style.width="0";
+  document.getElementById("main").style.marginLeft="0";
+  document.getElementById('abrir').style.visibility="visible";
+}
+</script>
+
+<h1 class="for">FORMATION</h1>
+<br> <br>
+<div class="parra">
+<p>Advice</p>
+<p>Talks and Trainings</p>
+<p>Courses</p>
+<p>Workshops</p>
+<p>Seminars</p>
+<p>Graduates</p>
+<p>Impact studies</p>
+</div>
+<br> <br> <br> <br>  <br> <br>
+</section>
+
+
+<div class="topnav" id="myTopnav">
+  <a href="javascript:void(0);" id="cerrar" class="cerrar" onclick="closeNav2()" >&times;</a>
+  <a href="" class="funda" >Fundación Afrodescendiente esta  es tu Luz Maria</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" id="abrir"  onclick="myFunction()">
+    <i class="fa fa-bars"></i>&#9776;
+  </a>
+</div>
+</body>
+<footer>
+  <div class="container-footer-all">
+    <div class="container-body">
+      <div class="colum1">
+         <h1>Fundacion Afrodescendiente esta es tu luz Maria</h1>
+        <p>Our basic objective is aimed at the vulnerable communities of the department and its area of ​​influence, in order to successfully improve their quality of life, through the planning and execution of plans, projects and programs that provide comprehensive actions in favor of the welfare of the community</p>
+      </div>
+   <div class="colum2">
+  <h1>Socials networks</h1>
+      <div class="row">
+ <img src="../../imagenes/iconos/facebook.png">
+ <a target="_blank" href="https://www.facebook.com/fundacionestaestuluzamaria/">Follow us facebook</a>
+        </div>
+   <div class="row">
+ <img src="../../imagenes/iconos/twitter.png">
+ <a target="_blank" href="https://twitter.com/EstaFundacion">Follow us twitter</a>
+       </div>
+       <div class="row">
+       <img src="../../imagenes/iconos/instagram.png">
+<a target="_blank" href="https://www.instagram.com/estaestuluzmaria/">Follow us instagram</a>
+  </div>
+        </div>
+        <div class="colum3">
+            <h1>Information Contacts</h1>
+          <div class="row2">
+              <img src="../../imagenes/iconos/ubicacion.png">
+             <label>Los Corales Cr 56 B Mz E 18 PS 2 LC1</label>
+            </div>
+         <div class="row2">
+             <img src="../../imagenes/iconos/telefono.png">
+                <label>Cel.: 312 6225419
+                  Tel: 6431026</label>
+            </div>
+           <div class="row2">
+                <img src="../../imagenes/iconos/correo.png">
+                 <label>fundacionestaestuluz@gmail.com  </label>
+          </div>
+       </div>
+   </div>
+</div>
+<div class="container-footer">
+   <div class="footer">
+   <div class="copyright">
+     © 2020 All Rights Reserved | <a href="">Fundacion Afrodescendiente esta es luz Maria</a>
+                 </div>
+  </div>
+       </div>
+</footer>
+</html>

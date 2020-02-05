@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../css/stylePortafolio.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>Fundacion Es Tu luz Maria</title>
+  </head>
+  <body>
+
+
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Eventos de la fundación</h4>
+          </div>
+
+            <iframe src=https://databasefundacion.000webhostapp.com/fundacion/showImages.php style="width: 100%; height: 100vh"></iframe>
+
+
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- MAIN (position website) -->
+<div class="main">
+
+<a href="../index.html"><img class="logo" src="../imagenes/iconos/logoTransparente.png" alt="log"></a>
+<hr>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="../index.html"><img class="lg" src="../imagenes/iconos/logoTransparente.png" alt=""></a> </br>
+<a href="../proyecto/nosotros.html">Nosotros</a>
+<a href="../proyecto/galeria.html">Galería</a>
+<a href="../proyecto/portafolio.html">Portafolio</a>
+<a href="../proyecto/experiencia.html">Experiencia</a>
+<a href="../proyecto/contacto.html">Contacto</a>
+<a type="button" class="btn btn-info btn-lg" id="botn" data-toggle="modal" data-target="#myModal">Nuestros Eventos</a>
+<br>
+<hr>
+<div class="cor">
+  <a href="portafolio.html"><img src="../imagenes/iconos/espana.png" alt="logo principal" class="lo"></a>
+    <a href=""></a>
+  <a href="../ingles/proyecto/portafolio.html"><img src="../imagenes/iconos/eu.png" alt="logo principal" class="lo"></a>
+</div>
+</div>
+
+<div id="main">
+  <span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+<h2>PORTAFOLIO DE SERVICIOS</h2>
+<hr>
+<p class="pa">La fundación afrodescendiente esta es tu luz Maria siempre esta en capacidad para ofrecer diversos programas para afianzamieno de algunos valores y otros por hacer que aquellas personas vinculadas tenga una mejor calidad de vida </p>
+<p class="pa">Estos son algunos de los programas los cuales estamos impulsando:</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="../imagenes/isla/isla2.jpg" alt="Mountains" style="width:100%">
+      <h3>VIVIENDA</h3>
+      <p>  Programas de construcción vivienda para población vulnerable.</p>
+      <p> 	 	Programas de mejoramiento de vivienda para poblacion vulnerabe.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="../imagenes/galeria/foto9.jpg" alt="Lights" style="width:100%">
+      <h3>MEDIO AMBIENTE</h3>
+       <p>    	Limpieza y mantenimiento de zonas de uso comunitario.</p>
+       <p>     Programas para cuidar el medio ambiente de las comunidades.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="../imagenes/portafolio/familia.jpg" alt="Nature" style="width:100%">
+      <h3>DESARROLLO FAMILIAR</h3>
+      <p>   Programa de cultura ciudadana dirigido a las familias.</p>
+      <p>   Programa de relaciones humanas y entorno intrafamiliar.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="../imagenes/portafolio/salud.jpg" alt="Mountains" style="width:100%">
+      <h3>SALUD</h3>
+      <p>   	Programas de salud de todo orden a través de convenios</p>
+      <p>    	Programas de prevención de multiples riesgos </p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+<div class="con">
+<div class="col">
+<div class="content">
+  <img class="ig" src="../imagenes/portafolio/deporte.jpg" alt="Bear" style="width:100%">
+  <h3>DEPORTES</h3>
+  <p>	 	programas de vida saludable</p>
+  <p> 	 	Organización de eventos deportivos comunitarios</p>
+  <p>   	Dotación de organizaciones deportivas comunitarias</p>
+
+</div>
+</div>
+
+<div class="col">
+<div class="content">
+  <img class="ig" src="../imagenes/portafolio/organizacion.jpg" alt="Bear" style="width:100%">
+  <h3>ORGANIZATIVO</h3>
+  <p> 	Fortalecimiento institucional</p>
+  <p> 	Programas de gestión comunitaria</p>
+  <p> 	Fortalecimiento de las capacidades de liderazgo</p>
+</div>
+
+
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script type="text/javascript">
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 220) {
+    document.getElementById("navbar").style.padding = "10px 10px";
+    document.getElementById("logo").style.fontSize = "15px";
+    document.getElementById("lig").style.width = "80px";
+    document.getElementById("lig").style.height = "50px";
+  } else {
+    document.getElementById("navbar").style.padding = "80px 10px";
+    document.getElementById("logo").style.fontSize = "15px";
+    document.getElementById("lig").style.width = "300px";
+    document.getElementById("lig").style.height = "200px";
+  }
+}
+
+</script>
+
+<script type="text/javascript">
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+
+function myFunction() {
+  document.getElementById('abrir').style.visibility= "hidden";
+    document.getElementById("mySidenav").style.width= "250px";
+  document.getElementById("main").style.marginLeft="250px";
+  document.getElementById('cerrar').style.visibility="visible";
+  document.getElementById('cerrar').style.display="inline";
+}
+
+function closeNav2() {
+  document.getElementById('cerrar').style.visibility="hidden";
+  document.getElementById("mySidenav").style.width="0";
+  document.getElementById("main").style.marginLeft="0";
+  document.getElementById('abrir').style.visibility="visible";
+}
+
+
+</script>
+
+
+
+<div class="topnav" id="myTopnav">
+  <a href="javascript:void(0);" id="cerrar" class="cerrar" onclick="closeNav2()" >&times;</a>
+  <a href="" class="funda" >Fundación Afrodescendiente esta  es tu Luz Maria</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" id="abrir"  onclick="myFunction()">
+    <i class="fa fa-bars"></i>&#9776;
+  </a>
+</div>
+  </body>
+  <footer>
+    <div class="container-footer-all">
+            <div class="container-body">
+              <div class="colum1">
+                 <h1>Fundacion Afrodescendiente esta es luz Maria</h1>
+                <p>Nuestro objetivo básico se encuentra dirigido  a las comunidades vulnerables del departamento y su área de influencia, a fin de lograr con éxito mejoramiento de su calidad de vida, a través del planeamiento y la ejecución de planes proyectos y programas que proporcionen acciones integrales en pro del bienestar de la comunidad</p>
+              </div>
+           <div class="colum2">
+          <h1>Redes Sociales</h1>
+              <div class="row">
+                <img src="../imagenes/iconos/facebook.png">
+                <a target="_blank" href="https://www.facebook.com/fundacionestaestuluzamaria/">siguenos en facebook</a>
+                       </div>
+                  <div class="row">
+                <img src="../imagenes/iconos/twitter.png">
+                <a target="_blank" href="https://twitter.com/EstaFundacion">siguenos en twitter</a>
+                      </div>
+                      <div class="row">
+                      <img src="../imagenes/iconos/instagram.png">
+            <a target="_blank" href="https://www.instagram.com/estaestuluzmaria/">siguenos en instagram</a>
+                 </div>
+                </div>
+                <div class="colum3">
+                    <h1>Informacion Contactos</h1>
+                  <div class="row2">
+                      <img src="../imagenes/iconos/ubicacion.png">
+                     <label>Los Corales Cr 56 B Mz E 18 PS 2 LC1</label>
+                    </div>
+                 <div class="row2">
+                     <img src="../imagenes/iconos/telefono.png">
+                        <label>Cel.: 312 6225419
+                          Tel: 6431026</label>
+                    </div>
+                   <div class="row2">
+                        <img src="../imagenes/iconos/correo.png">
+                         <label>fundacionestaestuluz@gmail.com</label>
+                  </div>
+               </div>
+           </div>
+        </div>
+        <div class="container-footer">
+           <div class="footer">
+           <div class="copyright">
+             © 2020 Todos los Derechos Reservados | <a href="">Fundacion Afrodescendiente esta es tu luz Maria</a>
+                   </div>
+    </div>
+         </div>
+  </footer>
+</html>
